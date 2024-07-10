@@ -1,0 +1,61 @@
+body{
+    background: rgb(186, 163, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+
+
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+.flex-items img{
+    width: 315px;
+    border: orange 5px solid;
+    outline: yellow 5px solid;
+
+}
+
+
+
+.flex-items h1,p{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+h1{
+    background-color: red;
+    color: yellow;
+    border-radius: 5px;
+    height: 38px;
+    max-width: 355px;
+}
+
+
+
+p{
+    height:250px;
+    width: 330px;
+    max-width: 330px;
+}
+
+
+
+.flex-items{
+    box-shadow: 9px 10px 23px -1px rgba(0,0,0,0.51);
+-webkit-box-shadow: 9px 10px 23px -1px rgba(0,0,0,0.51);
+-moz-box-shadow: 9px 10px 23px -1px rgba(0,0,0,0.51);
+}
+
+div{
+margin-right: 10px;
+}
+
